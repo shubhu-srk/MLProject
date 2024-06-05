@@ -1,5 +1,6 @@
 import sys
 import logging
+import logger
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() #This will give me the info about the exception in which file on which line 
@@ -17,11 +18,11 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
-# if __name__ == "__main__":
+if __name__ == "__main__":
 
-#     try:
-#         a=1/0
-#     except Exception as e:
-#         logging.info("Divide by zero")
-#         raise CustomException(e,sys)
+    try:
+        a=1/0
+    except Exception as e:
+        logging.info("Divide by zero")
+        raise CustomException(e,sys)
     
