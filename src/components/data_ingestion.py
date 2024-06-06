@@ -1,7 +1,7 @@
 import os
 import sys
 
-#PR-1: No src module found fix 
+#PR-1: No src module found fix,(python src/components/data_ingestion.py)
 from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
