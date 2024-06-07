@@ -56,7 +56,7 @@ class DataTransformation:
                     ]
             )
             logging.info(f"Categorical Columns:{categorical_columns}")
-            logging.info(f"Categorical Columns:{numerical_columns}")
+            logging.info(f"Numerical Columns:{numerical_columns}")
 
 
             #combine cat and num pipeline
