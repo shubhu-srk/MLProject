@@ -22,3 +22,7 @@ It is a fully feature ML Web app which predicts the Maths'score based on the dif
 - Prediction Pipeline and implementation using Flask App
 
 ## Results
+- Web App results <img src="./op.jpg">
+- Logging Results after successful Data Ingestion, Data Transfromation and Model Training and selects the best model based on R2 score. 
+  
+
