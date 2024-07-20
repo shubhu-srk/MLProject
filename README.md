@@ -23,6 +23,23 @@ It is a fully feature ML Web app which predicts the Maths'score based on the dif
 
 ## Results
 - Web App results <img src="./op.jpg">
-- Logging Results after successful Data Ingestion, Data Transfromation and Model Training and selects the best model based on R2 score. 
+- Logging Results after successful Data Ingestion, Data Transfromation and Model Training and selects the best model based on R2 score.<img src ="./log.jpg">
+
+
+
+## Usage 
+### Install Dependencies (frontend & backend)
+
+```
+pip install -r requirements.txt
+
+```
+### Run
+```
+conda create -p venv python==3.8 -y
+python src/components/data_ingestion.py ( To create preprocessor.pkl for data transformation and model.pkl for prediction)
+python app.py
+```
+
   
 
